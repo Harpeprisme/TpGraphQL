@@ -1,0 +1,42 @@
+{
+  "name": "TpGraphQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harpeprisme/TpGraphQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harpeprisme/TpGraphQL/issues"
+  },
+  "homepage": "https://github.com/Harpeprisme/TpGraphQL#readme",
+  "start": "nodemon --exec babel-node server/index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "graphql-tools": "^6.0.7",
+    "graphql-yoga": "^1.18.3",
+    "jsonwebtoken": "^8.5.1",
+    "merge-graphql-schemas": "^1.7.8",
+    "mongoose": "^5.9.17",
+    "mongoose-unique-validator": "^2.0.3",
+    "slug": "^3.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
